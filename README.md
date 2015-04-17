@@ -1,4 +1,4 @@
-Meteor Spots Demo:
+##Meteor Spots Demo
 
 Tokyo JS Meetup demo project by White Rabbit Japan.
 
