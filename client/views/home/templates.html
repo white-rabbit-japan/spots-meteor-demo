@@ -1,0 +1,28 @@
+<head>
+  <title>spot</title>
+</head>
+
+<body>
+<div class="fullScreenDiv">
+  {{#if Template.subscriptionsReady}}
+    {{> main}}
+  {{else}}
+    <div class="div-with-spinner">
+      {{ > Spinner }}
+    </div>
+  {{/if}}
+</div>
+</body>
+
+<template name="main">
+  {{#each ClickSpots}}
+
+    <div class="spot-wrapper" {{positioningStyle}}>
+        <span class="icon-stack spot">
+          <i class="icon-circle bunny-lg bunny-white icon-stack-1x"></i>
+          <i {{colorStyle}} class="icon-bunny-circle bunny-lg icon-stack-1x"></i>
+        </span>
+    </div>
+
+  {{/each}}
+</template>
