@@ -2,8 +2,8 @@
 
 Tokyo JS Meetup demo project by White Rabbit Japan.
 
-Git Repository:
+####Git Repository:
 https://github.com/white-rabbit-japan/spots-meteor-demo.git
 
-Demo Site:
+####Demo Site:
 http://wrspots.meteor.com
