@@ -1,4 +1,4 @@
-#SPOTS
+#Spots
 Meteor reactivity [demo app](http://wrspots.meteor.com)
 Created for [TokyoJS Meetup](http://www.meetup.com/tokyojs/events/221519773/) by [White Rabbit Japan](http://whiterabbitjapan.com).
 
