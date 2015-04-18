@@ -1,9 +1,3 @@
-Template.main.helpers({
-  counter: function() {
-    return Session.get('counter');
-  }
-});
-
 Template.body.events({
   'click .fullScreenDiv': function(e, t) {
     handleClick(e);
