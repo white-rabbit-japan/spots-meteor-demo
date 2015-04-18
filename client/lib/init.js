@@ -1,10 +1,10 @@
-MY_COLOR = null;
+MyColor = null;
 RenderLimit = 101;
 zIndexCounter = 0;
 
 Meteor.startup(function() {
 
-  MY_COLOR = Colors.getRandColor();
+  MyColor = Colors.getRandColor();
 
   var allSpotsCursor = Spots.find({});
 

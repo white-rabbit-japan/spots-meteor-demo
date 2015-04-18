@@ -19,5 +19,5 @@ Template.main.helpers({
       style: style
     };
   },
-  
+
 });

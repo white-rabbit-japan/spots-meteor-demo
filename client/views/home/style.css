@@ -1,6 +1,5 @@
 /* CSS declarations go here */
 
-
 .fullScreenDiv {
     position: absolute;
     width: 100%;
@@ -26,38 +25,45 @@ body {
 }
 
 .div-with-spinner {
-  color: '#F00';
+    color: '#F00';
 }
 
 /* circle__wrapper will help you to position the div in the center of the page */
-.spot-wrapper { 
-  -webkit-transform: translate(-50%, -50%); 
-  transform: translate(-50%, -50%); 
+.spot-wrapper {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .spot-wrapper .spot {
-  display:block; 
-  height: 120px; 
-  width: 120px; 
-  -webkit-border-radius: 50%; 
-  -moz-border-radius: 50%; 
-  border-radius: 50%; 
-  -webkit-animation: growUp .3s 0s; /* You can remove 1.5s if you don't want delay */
-  -moz-animation: growUp .3s 0s; 
-  -ms-animation: growUp .3s 0s; 
-  -o-animation: growUp .3s 0s; 
-  animation: growUp .3s 0s; 
+    display: block;
+    height: 120px;
+    width: 120px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: growUp .3s 0s; /* You can remove 1.5s if you don't want delay */
+    -moz-animation: growUp .3s 0s;
+    -ms-animation: growUp .3s 0s;
+    -o-animation: growUp .3s 0s;
+    animation: growUp .3s 0s;
 }
 
-
-@-webkit-keyframes growUp {   
-  0%  { -webkit-transform: scale(0); }
-  100% { -webkit-transform: scale(1); }
+@-webkit-keyframes growUp {
+    0% {
+        -webkit-transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+    }
 }
 
 @-moz-keyframes growUp {
-  0%  { -moz-transform: scale(0); }
-  100% { -moz-transform: scale(1); }
+    0% {
+        -moz-transform: scale(0);
+    }
+    100% {
+        -moz-transform: scale(1);
+    }
 }
 
 .bunny-lg {
@@ -76,6 +82,7 @@ body {
     line-height: 2em;
     vertical-align: middle;
 }
+
 .icon-stack-1x,
 .icon-stack-2x,
 .icon-stack-3x {
@@ -84,12 +91,15 @@ body {
     width: 100%;
     text-align: center;
 }
+
 .icon-stack-1x {
     line-height: inherit;
 }
+
 .icon-stack-2x {
     font-size: 1.5em;
 }
+
 .icon-stack-3x {
     font-size: 2em;
 }
