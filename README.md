@@ -6,4 +6,4 @@ Presentation [deck](http://slides.com/maxhodges/meteor-intro)
 
 - Built with [Meteor](http://meteor.com)
 - [jwall149:fastclick](https://atmospherejs.com/meteor/fastclick) for faster touch events on mobile 
-- [enteye:spinner](https://atmospherejs.com/enteye/spinner) spinner componenet
+- [enteye:spinner](https://atmospherejs.com/enteye/spinner) spinner component
